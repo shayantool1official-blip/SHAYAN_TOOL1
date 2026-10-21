@@ -6,7 +6,7 @@ local GameplayStatics = import("GameplayStatics")
 local InGameMarkTools = require("GameLua.Mod.BaseMod.Common.InGameMarkTools")
 local GamePlayTools = require("GameLua.Mod.BaseMod.Common.GamePlayTools")
 
-local EXPIRY_TIMESTAMP = os.time({ year = 2026, month = 10, day = 20, hour = 23, min = 59, sec = 0 })
+local EXPIRY_TIMESTAMP = os.time({ year = 2026, month = 10, day = 23, hour = 23, min = 59, sec = 0 })
 
 local function FormatTimeRemaining(sec)
     if sec <= 0 then return "0d 0h 0m 0s" end
